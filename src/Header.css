@@ -1,28 +1,32 @@
 
 
 .header {
-  height: 80px;
-  margin-right: 10%;
-  margin-left: 10%;
-}
-
-.header__links{
-  text-align: center;
-  padding-top: 20px;
-  font-size: 25px;
-  font-weight: 100;
-}
-
-.header a {
+  margin-top:1%;
   width: 100%;
-  margin-right: 67px;
-  color:rgb(2, 2, 54);
-  text-decoration: none;
-  font-weight: bolder;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 30px;
+  font-weight: 100;
   
 }
 
-.header a:hover {
+.header__links {
+  width: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__links a {
+  color:rgb(2, 2, 54);
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.header__links a:hover {
   color:  #5f5fff;
-  text-decoration:  underline 2px dashed  #5f5fff; ;
+  text-decoration:  underline 2px dashed  #5f5fff;
 }

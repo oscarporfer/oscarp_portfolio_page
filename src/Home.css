@@ -1,27 +1,31 @@
+
+
 *{
   background-color: #e6e6ff;
 }
 
-
-.home{
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-bottom: 10%;
+.home {
+  width:100%;
+  padding-top: 100px;
+  margin-bottom: 3%
 }
 
-
-
 .home__info {
+  margin-left:10%;
+  margin-right:10%;
+  padding-top: 60px;
   color: rgb(2, 2, 54);
-  padding: 150px 50px 50px 70px;
-  font-size: 40px ;
+  font-size: 50px ;
   font-weight: bolder;
   text-shadow: 5px 5px 0 rgb(95 95 255 / 40%);
 }
 
 .home__btn {
-  padding: 10px 50px 90px 70px;
-
+  height: 150px;
+  margin-left:10%;
+  margin-right:10%;
+  padding-top: 60px;
+  
 }
 
 .home__work__btn {
@@ -40,7 +44,7 @@
   box-shadow: 4px 4px 0 rgb(95 95 255 / 50%);
 }
 
-.home__contact__btn {
+.home__contact__btn{
   width: 170px;
   height: 50px;
   font-size: larger;
@@ -58,19 +62,26 @@
 }
 
 .home__skills {
-  padding: 100px 50px 30px 70px;
+  margin-left:10%;
+  margin-right:10%;
+  padding-top: 40px;
   color: rgb(2, 2, 54);
-  font-size: 40px;
+  font-size: 50px;
   font-weight: bolder;
   text-shadow: 5px 5px 0 rgb(95 95 255 / 40%);
 }
 
-.name {
-  display: flex;
-  justify-content: space-around;
-
+.home__skills__list {
+  margin-left:10%;
+  margin-right:5%;
+  display: grid;
+  grid-column-gap: 2px;
+	grid-row-gap: 2px;
+	grid-template-columns: auto auto auto auto;
 }
 
-.name > h4 {
-font-size: 20px;
+.home__skills__list > article {
+  flex: 200px;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
