@@ -81,7 +81,20 @@
 }
 
 .home__skills__list > article {
-  flex: 200px;
+  width: 250px;
   padding-top: 20px;
   padding-bottom: 30px;
+}
+
+.home__skills__list > article > h2 {
+  font-size: 25px;
+  color:  rgb(2, 2, 54);
+  font-weight: bolder;
+  text-shadow: 5px 5px 0 rgb(95 95 255 / 40%);
+}
+
+.home__skills__list > article > p {
+  font-weight: bold;
+  padding-top: 10px;
+  
 }
