@@ -1,27 +1,28 @@
+
+
 .header {
-  width: 100%;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  background-color: rgb(106, 106, 122);
+  height: 80px;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 .header__links{
-  margin:auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 25px;
+  font-weight: 100;
 }
 
 .header a {
-  color:white;
-  margin: 7px;
-  padding: 10px;
+  width: 100%;
+  margin-right: 67px;
+  color:rgb(2, 2, 54);
   text-decoration: none;
+  font-weight: bolder;
+  
 }
 
 .header a:hover {
-  color: rgb(28, 190, 142);
-  border-bottom: 2px solid rgb(28, 190, 142);
-  padding: 10px
+  color:  #5f5fff;
+  text-decoration:  underline 2px dashed  #5f5fff; ;
 }

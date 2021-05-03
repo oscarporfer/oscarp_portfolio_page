@@ -6,10 +6,12 @@ const Header = () => {
   return (
     <nav className="header">
         <div className="header__links">
-          <Link>Home</Link>
-          <Link>About Me</Link>
+          <Link>Oscar Portes</Link>
           <Link>Projects</Link>
+          <Link>Services</Link>
+          <Link>About</Link>
           <Link>Resume</Link>
+          <Link>Contact</Link>
         </div>
     </nav>
   );
