@@ -8,13 +8,12 @@ import Projects from "./Projects";
 function App() {
   return (
     <Router>
+      <Header />
       <Switch>
-        <Route path="/">
-          <Header />
+        <Route exact path="/">
           <Home />
         </Route>
-        <Route path="/projects">
-          <Header />
+        <Route exact path ="/projects">
           <Projects />
         </Route>
       </Switch>
