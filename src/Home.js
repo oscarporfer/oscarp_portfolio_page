@@ -15,8 +15,10 @@ const Home = () => {
       <div className="home__btn">
         <Link to="/projects">
         <button className="home__work__btn">See my Work</button>
-        </Link>
+        </Link >
+        <Link to="/contact">
         <button className="home__contact__btn">Contact Me</button>
+        </Link>
       </div>
       <div className="home__skills">
         <p> Tools and Frameworks</p>

@@ -8,7 +8,7 @@ const Projects = () => {
       <div className="project__list">
         <div className="project__card">
           <img className="photo" src="Felina.png" />
-          <h1>Felina</h1>
+          <h1>FeLiNa</h1>
           <p>
             This web application is designed to be an entertaining, interactive
             resource for anyone who considers themselves to be a fan of the AMC

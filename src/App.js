@@ -5,7 +5,8 @@ import Header from "./Header";
 import Home from "./Home";
 import Projects from "./Projects";
 import Services from "./Services";
-import About from "./About"
+import About from "./About";
+import Resume from "./Resume"
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
         </Route>
         <Route exact path ="/about">
           <About />
+        </Route>
+        <Route exact path ="/resume">
+          <Resume />
         </Route>
       </Switch>
     </Router>
