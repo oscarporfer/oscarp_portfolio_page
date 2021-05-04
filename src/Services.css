@@ -1,0 +1,43 @@
+.services {
+  overflow: hidden;
+}
+
+
+.services__title {
+  margin-left:10%;
+  margin-right:10%;
+  padding-top: 60px;
+  color: rgb(2, 2, 54);
+  font-size: 50px ;
+  font-weight: bolder;
+  text-shadow: 5px 5px 0 rgb(95 95 255 / 40%);
+}
+
+.services__list {
+  margin-left:10%;
+  margin-right:10%;
+  margin-bottom: 5%;
+  padding-top: 30px;
+  display: grid;
+  grid-column-gap: 80px;
+	grid-row-gap: 75px;
+  grid-template-columns: auto auto auto;
+}
+
+.services__list > article {
+    height: 150px
+
+}
+
+.services__list > article > h2 {
+  font-size: 25px;
+  color:  rgb(2, 2, 54);
+  font-weight: bolder;
+  text-shadow: 5px 5px 0 rgb(95 95 255 / 40%);
+}
+
+
+.services__list > article > p {
+  font-weight: bold;
+  padding-top: 10px;
+}

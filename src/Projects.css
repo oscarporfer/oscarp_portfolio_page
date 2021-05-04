@@ -48,6 +48,7 @@
   height:200px;
 }
 
+
 .project__btn {
   font-size: medium;
   background-color: #5f5fff;
@@ -60,4 +61,25 @@
   cursor: pointer;
   transition: border ease 0.5s;
   box-shadow: 4px 4px 0 rgb(95 95 255 / 50%);
+}
+
+.btn__movement__two {
+  padding-top: 40px;
+}
+
+.repo__btn {
+  width: 100%;
+  padding-top: 30px;
+  text-align: end;
+  
+}
+
+
+
+.repo__btn > h1 {
+  color: rgb(2, 2, 54);
+  font-size: 15px;
+  font-size: 40px;
+  font-weight: bolder;
+  text-shadow: 5px 5px 0 rgb(95 95 255 / 30%);
 }
