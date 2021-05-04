@@ -45,7 +45,7 @@ const Projects = () => {
         </div>
       </div>
       <div className="repo__btn">
-        <h1>What to check out my Github repo? Click here!</h1><a href="https://github.com/oscarporfer">
+        <h1>Checkout my Github repo for more projects</h1><a href="https://github.com/oscarporfer">
           <button className="project__btn">Github</button>
         </a>
         
