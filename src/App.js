@@ -5,6 +5,7 @@ import Header from "./Header";
 import Home from "./Home";
 import Projects from "./Projects";
 import Services from "./Services";
+import About from "./About"
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
         </Route>
         <Route exact path ="/services">
           <Services />
+        </Route>
+        <Route exact path ="/about">
+          <About />
         </Route>
       </Switch>
     </Router>

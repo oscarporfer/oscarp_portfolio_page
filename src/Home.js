@@ -80,7 +80,7 @@ const Home = () => {
        </article>
        <article>
          <h2>SendGrid</h2>
-         <p>Customer communication platform for transactional and marketing email.</p>
+         <p>Customer communication platform for transactional and marketing emails.</p>
        </article>
        <article>
          <h2>Passport</h2>

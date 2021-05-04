@@ -25,6 +25,7 @@
   border-radius: 0.5em;
   transition: border ease 0.5s;
   box-shadow: 4px 4px 0 rgb(95 95 255 / 50%);
+  margin-right: 60px;
 
 }
 
@@ -39,6 +40,8 @@
 .project__card > p { 
   padding-bottom: 20px;
   font-weight: bold;
+  margin-right: 15px;
+
 }
 
 .photo {
