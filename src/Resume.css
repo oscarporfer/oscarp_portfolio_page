@@ -1,7 +1,36 @@
-.resume__header {
-  text-align: center;
+.resume {
+  font-size: 15px;
 }
 
-.resume__experience {
- align-items: center;
+.resume__header {
+  text-align: center;
+  
 }
+
+ .resume__experience > h2 {
+  text-align: center;
+  text-decoration: underline;
+  padding-top: .3%;
+ }
+
+ .resume__experience > h3 {
+  margin-left: 25%;
+  padding-top: .5%
+
+ }
+
+ .resume__experience > h3 > a {
+  text-decoration: none;
+ }
+ 
+ .resume__experience > ul {
+  margin-left: 25%;
+ }
+
+ .resume__experience > h4 {
+  margin-left: 25%;
+
+ }
+ 
+ 
+

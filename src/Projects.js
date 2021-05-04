@@ -7,7 +7,7 @@ const Projects = () => {
       <div className="project__page__title">Here are some of my projects</div>
       <div className="project__list">
         <div className="project__card">
-          <img className="photo" src="Felina.png" />
+          <img className="photo" src="Felina.png" alt="" />
           <h1>FeLiNa</h1>
           <p>
             This web application is designed to be an entertaining, interactive
@@ -22,7 +22,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="project__card">
-          <img className="photo" src="Mind-Link.png" />
+          <img className="photo" src="Mind-Link.png" alt=""  />
           <h1>Mind-Link</h1>
           <p>
             Website to showcases MERN stack development. This web application
@@ -36,7 +36,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="project__card">
-          <img className="photo" src="ComingSoon.png" />
+          <img className="photo" src="ComingSoon.png" alt=""  />
           <h1>Vinoh e paz</h1>
           <p>
             Connecting Brazilian wine connoisseurs with fresh wines that Brazil

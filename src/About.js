@@ -10,7 +10,7 @@ const About = () => {
       </div>
       <div className="about__description">
         <p>My name is Oscar and I am a software developer specialized in Front-End web applications. I began software development
-          in 2017 because I wanted to create a "To-Do List" application that catered to my lifestyle. To broaden my knowledge on the keyboard, 
+          in 2015 because I wanted to create a "To-Do List" application that catered to my lifestyle. To broaden my knowledge on the keyboard, 
           I attended <a href="https://wyncode.co/">Wyncode Academy</a> in 2020, a Full-Stack Web Development bootcamp which helped refine my skills.
           I attended Florida International University for Economics, but took a few programming courses which helped spark my interest in coding.
           <br/>
