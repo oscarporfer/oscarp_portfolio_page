@@ -26,7 +26,7 @@ const Projects = () => {
           <h1>Mind-Link</h1>
           <p>
             Website to showcases MERN stack development. This web application
-            provides individuals in the music and art industry to come together
+            provides a space for individuals in the music and art industry to come together
             and collaborate.{" "}
           </p>
           <div className="btn__movement__two">
@@ -39,7 +39,7 @@ const Projects = () => {
           <img className="photo" src="ComingSoon.png" />
           <h1>Vinoh e paz</h1>
           <p>
-            Connecting Brazilian Wine connoisseurs with fresh wines that Brazil
+            Connecting Brazilian wine connoisseurs with fresh wines that Brazil
             does not have access to.{" "}
           </p>
         </div>
