@@ -3,7 +3,7 @@ import axios from 'axios';
 
 
 
-export default class Conta extends React.Component {
+export default class Contact extends React.Component {
   
   
   

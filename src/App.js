@@ -8,6 +8,7 @@ import Services from "./Services";
 import About from "./About";
 import Resume from "./Resume"
 import Forms from "./Forms"
+import Contact from "./Contact"
 
 
 function App() {
@@ -30,8 +31,8 @@ function App() {
         <Route exact path ="/resume">
           <Resume />
         </Route>
-        <Route exact path ="/forms">
-          <Forms />
+        <Route exact path ="/contact">
+          <Contact />
         </Route>
       </Switch>
     </Router>
