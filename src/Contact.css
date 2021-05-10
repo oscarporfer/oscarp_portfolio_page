@@ -1,2 +1,52 @@
+.contact{
+  margin: 2% 10% 2% 10%;
+}
 
+.contact__title {
+  color:rgb(2, 2, 54);
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 160%;
+  padding-top: 1%
+}
 
+h1 {
+  padding-bottom: 2%;
+  color: rgb(2, 2, 54);
+  font-size: 50px ;
+  font-weight: bolder;
+  text-shadow: 5px 5px 0 rgb(95 95 255 / 40%);
+}
+
+.contact__text {
+ width: 100%
+}
+
+textarea{
+  width: 100%;
+  border-radius: 5px;
+  background-color: white;
+  
+}
+
+[name] {
+  padding-top: 15px;
+  padding-left: 15px;
+  font-size: 15px;
+}
+
+.btn.btn--submit {
+  width: 170px;
+  height: 50px;
+  font-size: larger;
+  background-color: #5f5fff;
+  color:white;
+  display: inline-block;
+  padding: 0.5em 1em;
+  margin-right: 1rem;
+  border: none;
+  border-radius: 0.5em;
+  cursor: pointer;
+  transition: border ease 0.5s;
+  box-shadow: 4px 4px 0 rgb(95 95 255 / 50%);
+}

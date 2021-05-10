@@ -1,11 +1,10 @@
 import React from 'react';
 import axios from 'axios';
+import './Contact.css';
 
 
 
 export default class Contact extends React.Component {
-  
-  
   
   constructor(props) {
 	super(props);
@@ -15,15 +14,11 @@ export default class Contact extends React.Component {
   this.resetForm = this.resetForm.bind(this)
   }
 
-  
-
-  
-
   render() {
 	return (
-  	<form className="test-mailing">
-    	<h1>Let's see if it works</h1>
-    	<div>
+  	<form className="contact">
+    	<h1>Let's start this journey</h1>
+       <div className="contact__title">Name(Required):</div> 
       <textarea
         	id="name"
         	name="name"
@@ -31,27 +26,28 @@ export default class Contact extends React.Component {
         	placeholder="Name"
         	required
         	value={this.state.name}
-        	style={{width: '20%', height: '50px'}}
+        	
       	/>
+        <div className="contact__title">Email(Required):</div>
         <textarea
         	id="email"
         	name="email"
         	onChange={this.handleChange}
-        	placeholder="Email"
+        	placeholder="Email Address"
         	required
         	value={this.state.email}
-        	style={{width: '20%', height: '50px'}}
       	/>
+        <div className="contact__title">Message:</div>
       	<textarea
         	id="feedback"
         	name="feedback"
         	onChange={this.handleChange}
-        	placeholder="Post some lorem ipsum here"
+        	placeholder="Write your message here"
         	required
-        	value={this.state.feedback}
-        	style={{width: '100%', height: '150px'}}
+          value={this.state.feedback}
+          style={{ height: '100px'}}
+        	
       	/>
-    	</div>
     	<input type="button" value="Submit" className="btn btn--submit" onClick={this.handleSubmit} />
   	</form>
 	)

@@ -7,7 +7,7 @@ import Projects from "./Projects";
 import Services from "./Services";
 import About from "./About";
 import Resume from "./Resume"
-import Forms from "./Forms"
+import ScrollButton from "./ScrollButton"
 import Contact from "./Contact"
 
 
@@ -18,6 +18,7 @@ function App() {
       <Switch>
         <Route exact path="/">
           <Home />
+          <ScrollButton showBelow={1} />
         </Route>
         <Route exact path ="/projects">
           <Projects />

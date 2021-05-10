@@ -88,6 +88,7 @@ const Home = () => {
          <h2>Passport</h2>
          <p>An authentication middleware library that simplifies the process of assigning and verifying JWT tokens.</p>
        </article>
+       <button  onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
       </div>
     </div>
   );
